@@ -27,11 +27,11 @@ def process_img_2_pkl(images_path,points, save_name):
 if __name__ == '__main__':
     import time
     st = time.time()
-    save_name = 'mmsm_SR06'
+    save_name = 'pkl/mmsm_SR06'
     images_path = "./output_SR"
     points = 33 # points的最佳数值为图像数量的1/2次方
     mm = MM_SSIM_map_match()
-    process_img_2_pkl(images_path, points, save_name)
+    # process_img_2_pkl(images_path, points, save_name)
 
 
     # mm.load_pkl(save_name + '.pkl')
