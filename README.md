@@ -14,3 +14,6 @@ Match the map of the game "Honkai: StarRail" based on image whitout learning
     3. 使用mm.search_img/mm.search_img_topk 进行匹配 返回匹配到的图像路径和距离，距离为0-1之间，<0.6时为比较接近 <0.3时图像几乎一样
 5. 关于数据收集方式
     1. 虽然可以一个视频直接跑完一张地图，但这样的话数据变化是比较均匀的，使用分块策略会造成比较大的精度损失，最好是只收集需要匹配的地标区域的小地图，跳过其他不重要的部分，可以提升精度
+6. 联系作者
+    1. bilibili: https://space.bilibili.com/35596643?spm_id_from=333.1007.0.0
+    2. email: violet20010528@gmail.com

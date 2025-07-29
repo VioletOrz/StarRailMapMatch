@@ -1,0 +1,5 @@
+numpy
+scipy
+image_match
+pillow
+opencv_python
